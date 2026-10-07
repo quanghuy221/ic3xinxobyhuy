@@ -382,7 +382,7 @@ body{
   </button>
   <div class="start-logo">IC3</div>
   <h1>Ôn Tập IC3 GS6 Level 2</h1>
-  <p class="subtitle">IC3 GS6 Level 2 · Images Uploaded!</p>
+  <p class="subtitle">IC3 GS6 Level 2 · UI Updating!</p>
   <div class="user-chip" id="user-chip">
     <div class="mini-avatar" id="user-mini-avatar">Q</div>
     <div class="user-info">
@@ -514,16 +514,16 @@ const originalQuestions = [
 {id:16,type:'imageClick',question:'Bạn muốn giảm độ sáng của màn hình trên máy tính. Hãy nhấp trực tiếp vào tính năng cho phép bạn điều chỉnh cài đặt độ sáng trên máy tính Windows này.',image:'anh1.png',
   target:{x1:23.57, y1:30.06, x2:98.56, y2:41.76},
   correct:[0],
-  explanation:'Trong Windows, độ sáng màn hình được điều chỉnh trong System → Display. Nhấp vào ô "Display" trong danh sách cài đặt System.'},
+  explanation:'Trong Windows, độ sáng màn hình được điều chỉnh trong Display. Nhấp vào ô "Display" trong danh sách cài đặt System.'},
 {id:17,type:'imageClick',question:'Bạn muốn thay đổi độ tương phản của màn hình trên máy tính. Hãy nhấp trực tiếp vào tính năng sẽ cho phép bạn điều chỉnh cài đặt độ tương phản trên máy tính Windows này.',image:'anh2.png',
   target:{x1:27.96, y1:70.21, x2:51.36, y2:96.43},
   correct:[0],
-  explanation:'Độ tương phản (High contrast) được điều chỉnh trong Ease of Access. Nhấp vào ô Ease of Access được khoanh đỏ.'},
+  explanation:'Độ tương phản (High contrast) được điều chỉnh trong Ease of Access. Đáp án đúng là Ease of Access.'},
 /* ✅ Câu 18 — target MỚI cho ảnh anh3 mới */
 {id:18,type:'imageClick',question:'Bạn đang sử dụng điện thoại Android và muốn thay đổi độ tương phản. Hãy nhấp trực tiếp vào tính năng sẽ cho phép bạn điều chỉnh độ tương phản trên điện thoại này.',image:'anh3.png',
   target:{x1:0.48, y1:57.58, x2:98.95, y2:67.56},
   correct:[0],
-  explanation:'Trên Android, độ tương phản được điều chỉnh trong mục Hỗ trợ / Trợ năng (Accessibility). Nhấp vào ô Hỗ trợ được khoanh đỏ.'},
+  explanation:'Trên Android, độ tương phản được điều chỉnh trong mục Hỗ trợ / Trợ năng (Accessibility). Nhấp vào nút Accessibility là đáp án đúng.'},
 {id:19,type:'matrix',question:'Giáo viên của bạn đã giao cho bạn một nhiệm vụ để xác nhận quan điểm của kết quả tìm kiếm và tạo tác kỹ thuật số. Đối với mỗi tuyên bố về quan điểm xác thực, hãy chọn Đúng (Yes) nếu tuyên bố đúng hoặc Sai (No) nếu tuyên bố sai.',rows:['Những câu chuyện được tải bởi mạng lưới truyền thông luôn luôn thể hiện cả hai mặt và một góc nhìn bình đẳng','Một khuynh hướng cảm tính ủng hộ hình đăng xã hội, chủ nghĩa tự do và các ý tưởng cách mạng','Thành kiến của cánh hữu ủng hộ các doanh nghiệp tư do, quyền sở hữu tư nhân và các ý tưởng bảo thủ về mặt xã hội','Tất cả các câu chuyện đăng trên internet đều có quan điểm trung lập'],correct:[1,0,0,1],explanation:'Truyền thông có thể có khuynh hướng (thành kiến tự do hoặc bảo thủ), nhưng không phải luôn thể hiện cả hai mặt bình đẳng và không phải tất cả câu chuyện đều trung lập.'},
 {id:20,type:'matrix',question:'Trong khi nghiên cứu một chủ đề bạn không biết gì, kết quả tìm kiếm của bạn mang lại một số bài báo thuyết phục. Làm thế nào để bạn biết liệu bất kỳ bài báo nào trong số này là thiên vị? Đối với mỗi phát biểu về việc đánh giá sự thiên vị của kết quả tìm kiếm, chọn Đúng (Yes) nếu nó là không thiên vị hoặc Sai (No) nếu nó thiên vị.',rows:['Tác giả của bài báo đưa ra những lập luận ngang nhau của cả hai quan điểm','Bài báo đã được đăng trên một tạp chí uy tín, được đánh giá chuyên nghiệp','Kiểm tra các bài viết trên mediabiasfactcheck.com hoặc newsfactsnetwork.com','Kiểm tra ác độ thịnh hành của bài viết và số lượt thích trên mạng xã hội','Bài báo đã được xuất bản bởi một trong những nguồn truyền thông được liệt kê trên biểu đồ thiên vị truyền thông (Media Bias Chart)'],correct:[0,0,0,1,0],explanation:'Đánh giá dựa trên lập luận, nguồn uy tín, fact-check, và biểu đồ thiên vị. Số lượt thích không đánh giá được tính xác thực.'},
 {id:21,type:'matrix',question:'Bạn đang tìm kiếm các dữ kiện để hỗ trợ một bài thuyết trình mà bạn đang xây dựng cho lớp khoa học của mình. Bạn tìm thấy một nghiên cứu của khoa học liên quan đến chủ đề của bạn. Làm thế nào để bạn biết liệu nghiên cứu có đáng tin cậy hay không? Đối với mỗi tuyên bố, hãy chọn Đúng (Yes) nếu bạn nên cân nhắc khi xác định độ tin cậy của nghiên cứu hoặc Sai (No) nếu không.',rows:['Chuyên môn và uy tín của nhà báo','Có bao nhiêu người đã chia sẻ nghiên cứu trên mạng xã hội','Bạn có thể tìm và truy cập các nguồn','Nhà báo sử dụng kính địa phương'],correct:[0,1,0,0],explanation:'Chuyên môn và uy tín của nhà báo: Đúng. Số người chia sẻ: Sai. Có thể tìm và truy cập nguồn: Đúng. Nhà báo sử dụng kính địa phương: Sai.'},
